@@ -8,7 +8,32 @@
   <meta name="author" content="" />
 
   <title>Vibe Cartons</title>
-
+  <style>  
+    .gfg { 
+        width:auto; 
+        text-align:center; 
+        padding:20px; 
+    } 
+    #big-container {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+    #image-container {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+    img { 
+        max-width:100%; 
+        max-height: auto; 
+    }
+    #text-container {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+  </style>
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
@@ -50,71 +75,92 @@
         <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
       </div>
   
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 pb-0">
+        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Soup Cups</h2>
+            <p class="lead">Sets of 240 <br> 16 oz <br> 24 oz <br> 32 oz </p>
           </div>
-          <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div id=image-container class="bg-dark box-shadow mx-auto mb-0;" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/DC32-3.jpg" class="rounded mx-auto mb-0" alt="32 oz Soup Cup">
+          </div>
+          
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+
+        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Sauce Cups</h2>
+            <p class="lead">Sets of 2500 for all except for 1oz (sets of 1000) <br> 0.75oz <br> 1oz <br> 1.5oz <br> 2oz <br> 3.25oz <br> 4oz <br> 5.5oz </p>
           </div>
-          <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
-      </div>
-  
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+          <div id=image-container class="bg-light box-shadow mx-auto mb-0;" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/SC1.jpg" class="rounded mx-auto mb-0" alt="1 oz Sauce Cup">
           </div>
-          <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-        </div>
-        <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
-          </div>
-          <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
         </div>
       </div>
   
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Clamshell Boxes</h2>
+            <p class="lead">Set count varies, inquire for specifics <br> 6” <br> 9”x6” <br> 8” single compartment <br> 8” Single high version <br> 8” triple compartment <br> 9” single compartment <br> 9” triple compartment</p>
           </div>
-          <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/ml61-3.jpg" class="rounded mx-auto mb-0" alt="6 inch Clamshell">
+          </div>
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+
+        <div id=big-container class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Bowls</h2>
+            <p class="lead">Sets of 150 for all except 32 oz round container <br> 16oz <br> 24oz <br> 32oz <br> 36oz <br> 48oz <br> 32oz Rectangular</p>
           </div>
-          <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div id=image-container class="bg-primary box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/dc718-3.jpg" class="rounded mx-auto mb-0" alt="16 oz Bowl">
+          </div>
         </div>
       </div>
   
       <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 p-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Deli Containers</h2>
+            <p class="lead">Sets of 500 <br> 12oz <br> 24oz</p>
           </div>
-          <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div id=image-container class="bg-dark box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/SK25-1.jpg" class="rounded mx-auto mb-0" alt="24 oz Deli Container">
+          </div>
         </div>
-        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-          <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+
+        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Beverage Cups</h2>
+            <p class="lead">Sets of 1000 <br> 12oz <br> 16oz <br> 20oz <br> 24oz <br> Flat lids <br> Dome lids</p>
           </div>
-          <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/group-饮料杯.jpg" class="rounded mx-auto mb-0" alt="Group Beverage Cups">
+          </div>
+        </div>
+      </div>
+  
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Sushi Boxes</h2>
+            <p class="lead">Single compartment: 400 pcs <br> 5 compartments: 100 pcs</p>
+          </div>
+          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/FH307-3.jpeg" class="rounded mx-auto mb-0" alt="5 Compartment Sushi Box">
+          </div>
+        </div>
+
+        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-white text-center overflow-hidden">
+          <div id=text-container class="my-1 p-3">
+            <h2 class="display-5">Utensils</h2>
+            <p class="lead"> Sets of 1000 <br> Spoons <br> Forks <br> Knives <br> Each type sold separately</p>
+          </div>
+          <div id=image-container class="bg-dark box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img src="productpics/fork.PNG" class="rounded mx-auto mb-0" alt="Fork">
+          </div>
         </div>
       </div>
 
