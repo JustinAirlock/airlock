@@ -8,32 +8,6 @@
   <meta name="author" content="" />
 
   <title>Vibe Cartons</title>
-  <style>  
-    .gfg { 
-        width:auto; 
-        text-align:center; 
-        padding:20px; 
-    } 
-    #big-container {
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
-    }
-    #image-container {
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
-    }
-    img { 
-        max-width:100%; 
-        max-height: auto; 
-    }
-    #text-container {
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-    }
-  </style>
   <!-- Favicon-->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
@@ -46,124 +20,157 @@
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
   <link href="css/new.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" type="text/css"
+     href="https://fonts.googleapis.com/css?family=Lato|Raleway:600|Lobster|Merriweather">
 
 </head>
 <body>
 
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Vibe Cartons</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+              <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Vibe Cartons</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="product.html">Products</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+       </nav>
+    <section id="our-fleet">
+                <div class="abouttopbg row align-items-center position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+                    <div class="col-md-5 p-lg-5 mx-auto my-5">
+                        <h1>Our Products</h1>
+                    </div>
+                </div>
+    			<div class="row">
+    				<div class="col-md-4 col-sm-4 col-xs-12">
+    					<h2> Soup Cups</h2>
+    					<img class="img-responsive" src="productpics/SK25-1.jpg" alt="Soup Cups">
+    					<br>
+    <!--					<p class="description">Our Cessna, affectionately nicknamed "Tucker" is popular with student pilots. It might seem a little basic, but it's got everything a fledgling pilot needs to learn the art of flying - and at a great price!
+    					</p>
+    					<br>
+    					<div class="row">
+                                <div class="col-xs-3">
+                                    <p>100</p>
+                                    <p>horsepower</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>102</p>
+                                    <p>KIAS Cruise</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>303</p>
+                                    <p>nm range</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>2</p>
+                                    <p>seats</p>
+                                </div>
+    						</div>
+    						<div class="row">
+                                <div class="col-xs-4">
+                                    <p>1060</p>
+                                    <p>lbs, empty</p>
+    							</div>
+                                <div class="col-xs-4">
+                                    <p>VFR</p>
+                                    <p class="desc">capable</p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <p>$98</p>
+                                    <p>hourly cost, wet</p>
+                                </div>
+                            </div> -->
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 class="display-4 font-weight-normal">Food Containers</h1>
-          <p class="lead font-weight-normal">We've got everything you'll need for your business's takeout needs: Clamshell boxes, two piece containers, beverage cups, sauce containers, you name it. Environmentally friendly options are also available!</p>
-          <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-        </div>
-        <div class="product-device box-shadow d-none d-md-block"></div>
-        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
-      </div>
-  
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 pb-0">
-        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Soup Cups</h2>
-            <p class="lead">Sets of 240 <br> 16 oz <br> 24 oz <br> 32 oz </p>
-          </div>
-          <div id=image-container class="bg-dark box-shadow mx-auto mb-0;" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/DC32-3.jpg" class="rounded mx-auto mb-0" alt="32 oz Soup Cup">
-          </div>
-          
-        </div>
-
-        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Sauce Cups</h2>
-            <p class="lead">Sets of 2500 for all except for 1oz (sets of 1000) <br> 0.75oz <br> 1oz <br> 1.5oz <br> 2oz <br> 3.25oz <br> 4oz <br> 5.5oz </p>
-          </div>
-          <div id=image-container class="bg-light box-shadow mx-auto mb-0;" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/SC1.jpg" class="rounded mx-auto mb-0" alt="1 oz Sauce Cup">
-          </div>
-        </div>
-      </div>
-  
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Clamshell Boxes</h2>
-            <p class="lead">Set count varies, inquire for specifics <br> 6” <br> 9”x6” <br> 8” single compartment <br> 8” Single high version <br> 8” triple compartment <br> 9” single compartment <br> 9” triple compartment</p>
-          </div>
-          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/ml61-3.jpg" class="rounded mx-auto mb-0" alt="6 inch Clamshell">
-          </div>
-        </div>
-
-        <div id=big-container class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Bowls</h2>
-            <p class="lead">Sets of 150 for all except 32 oz round container <br> 16oz <br> 24oz <br> 32oz <br> 36oz <br> 48oz <br> 32oz Rectangular</p>
-          </div>
-          <div id=image-container class="bg-primary box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/dc718-3.jpg" class="rounded mx-auto mb-0" alt="16 oz Bowl">
-          </div>
-        </div>
-      </div>
-  
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center text-white overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Deli Containers</h2>
-            <p class="lead">Sets of 500 <br> 12oz <br> 24oz</p>
-          </div>
-          <div id=image-container class="bg-dark box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/SK25-1.jpg" class="rounded mx-auto mb-0" alt="24 oz Deli Container">
-          </div>
-        </div>
-
-        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Beverage Cups</h2>
-            <p class="lead">Sets of 1000 <br> 12oz <br> 16oz <br> 20oz <br> 24oz <br> Flat lids <br> Dome lids</p>
-          </div>
-          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/group-饮料杯.jpg" class="rounded mx-auto mb-0" alt="Group Beverage Cups">
-          </div>
-        </div>
-      </div>
-  
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-        <div id=big-container class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-center overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Sushi Boxes</h2>
-            <p class="lead">Single compartment: 400 pcs <br> 5 compartments: 100 pcs</p>
-          </div>
-          <div id=image-container class="bg-light box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/FH307-3.jpeg" class="rounded mx-auto mb-0" alt="5 Compartment Sushi Box">
-          </div>
-        </div>
-
-        <div id=big-container class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 mb-0 text-white text-center overflow-hidden">
-          <div id=text-container class="my-1 p-3">
-            <h2 class="display-5">Utensils</h2>
-            <p class="lead"> Sets of 1000 <br> Spoons <br> Forks <br> Knives <br> Each type sold separately</p>
-          </div>
-          <div id=image-container class="bg-dark box-shadow mx-auto mb-0" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-            <img src="productpics/fork.PNG" class="rounded mx-auto mb-0" alt="Fork">
-          </div>
-        </div>
-      </div>
-
+    				</div>
+    				<div class="col-md-4 col-sm-4 col-xs-12" id="trinity">
+    					<h2> Clamshells </h2>
+    					<img class="img-responsive" src="productpics/ml61-3.jpg" alt="Clamshell">
+    					<br>
+    				<!--	<p class="description">Our Warrior, Trinity, is being flown primarily by student pilots, private pilots, as well as IFR students. Its clean panel and smooth flying capabilities make it a joy to fly and it will not disappoint you!
+    					</p>
+    					<br>
+    					<div class="row">
+                                <div class="col-xs-3">
+                                    <p>160</p>
+                                    <p>horsepower</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>118</p>
+                                    <p>KIAS Cruise</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>633</p>
+                                    <p>nm range</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>4</p>
+                                    <p>seats</p>
+                                </div>
+    						</div>
+    						<div class="row">
+                                <div class="col-xs-4">
+                                    <p>1353</p>
+                                    <p>lbs, empty</p>
+    							</div>
+                                <div class="col-xs-4">
+                                    <p>IFR</p>
+                                    <p class="desc">capable</p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <p>$107</p>
+                                    <p>hourly cost, wet</p>
+                                </div>
+                            </div> -->
+    				</div>
+    				<div class="col-md-4 col-sm-4 col-xs-12">
+    					<h2> Sauce Cups </h2>
+    					<img class="img-responsive" src="productpics/SC1.jpg" alt="Sauce Cups">
+    					<br>
+    					<!-- <p class="description">Our second Warrior, Tonto, is being flown primarily by private pilots, and IFR students. Its modern avionics and handling abilities make it an excellent IFR trainer and cross country machine.
+    					</p>
+    					<br>
+    					<div class="row">
+                                <div class="col-xs-3">
+                                    <p>160</p>
+                                    <p>horsepower</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>118</p>
+                                    <p>KIAS Cruise</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>633</p>
+                                    <p>nm range</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <p>4</p>
+                                    <p>seats</p>
+                                </div>
+    						</div>
+    						<div class="row">
+                                <div class="col-xs-4">
+                                    <p>1353</p>
+                                    <p>lbs, empty</p>
+    							</div>
+                                <div class="col-xs-4">
+                                    <p>IFR</p>
+                                    <p class="desc">capable</p>
+                                </div>
+                                <div class="col-xs-4">
+                                    <p>$117</p>
+                                    <p>hourly cost, wet</p>
+                                </div>
+                            </div>
+    				</div> -->
+    			</div>
+    		</section>
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
