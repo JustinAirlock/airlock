@@ -12,10 +12,6 @@
 	content:"";display:block;height:45px
 	}
 .about-wrapper{
-  background:  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),url('../general_files/backgrounds/PlaneDep1.jpg'); /* capitalizations do matter, including the file type!*/
   background-position: 50% 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,7 +39,7 @@ margin-top: 10px;
 */
 
 .abouttopbg{
-  background-image: url('https://vibecartons.com/img/bg-masthead.jpg');
+  background-image: url('https://res.cloudinary.com/dimxyge4j/image/upload/f_auto,q_auto/bg-masthead_akfkpl.jpg');
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -138,7 +134,7 @@ img {
 .btn {
   font-family: benton-sans,Helvetica,Sans-serif;
 }
- 
+
 /* FONTS  */
 h1, h2 {
   color: black !important;
@@ -181,7 +177,7 @@ h1, h2 {
   color: #fff;
   background-color: #ff3d00;
   border-color: #ff3d00;
-} 
+}
 
 .products-list a {
   text-decoration: none;
@@ -213,4 +209,4 @@ h1, h2 {
   background: #ff3d00 !important;
   color: #ffffff !important;
   transition-duration: 0.3s;
-} 
+}
