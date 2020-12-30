@@ -39,7 +39,7 @@ margin-top: 10px;
 */
 
 .abouttopbg{
-  background-image: url('https://res.cloudinary.com/dimxyge4j/image/upload/f_auto,q_auto/bg-masthead_akfkpl.jpg');
+  background-image: url("https://res.cloudinary.com/dimxyge4j/image/upload/f_auto,q_auto/bg-masthead_akfkpl.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 
