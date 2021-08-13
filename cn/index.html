@@ -21,20 +21,10 @@
   <!-- Third party plugin CSS-->
   <link async defer href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link rel="preload" href="/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/styles.css"></noscript>
-  <link rel="preload" href="/css/new.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/css/new.css"></noscript>
-
-  <script src="https://www.google.com/recaptcha/api.js"></script>
-  <script>
-  window.onload = function() {
-  var el = document.getElementById('g-recaptcha-response');
-  if (el) {
-    el.setAttribute('required', 'required');
-  }
-}
-  </script>
+  <link rel="preload" href="../css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="../css/styles.css"></noscript>
+  <link rel="preload" href="../css/new.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="../css/new.css"></noscript>
 
 </head>
 
@@ -43,7 +33,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Airlock Logistics Chinese</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">艾洛克物流</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -61,12 +51,12 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Airlock Logistics</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">艾洛克物流</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Airlock Logistics is a west-coast 3PL and freight forwarder. We provide warehousing and logistics services to e-commerce and OEM customers.</p>
-                        <a class="btn comeIn bg-orange btn-xl js-scroll-trigger" href="#contact">Contact Us</a>
+                        <p class="text-white-75 font-weight-light mb-5">艾洛克物流是一个位于美国西海岸的物流公司，为国内电商和工厂提供海外仓和美国本地物流服务。</p>
+                        <a class="btn comeIn bg-orange btn-xl js-scroll-trigger" href="#contact">联系我们</a>
                     </div>
                 </div>
             </div>
@@ -76,30 +66,28 @@
 
     <!-- Contact Us -->
     <section id="contact" class="pt-5 contact-section">
-    <!--  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small> -->
         <div class="container pt-5">
             <div class="row">
-                <div class=" comeIn col">
+                <div class="comeIn col">
                     <div class="card">
                         <div class="card-header bg-orange text-white"><i class="fa fa-envelope"></i> Contact us.
                         </div>
                         <div class="card-body">
                             <form id="contactform" action="https://formspree.io/f/mdoypkkp" method="POST">
                                 <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+                                    <label for="name">姓名</label>
+                                    <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="请输入姓名" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control" id="email" name="_replyto" aria-describedby="emailHelp" placeholder="Enter email" required>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <label for="email">电子邮箱</label>
+                                    <input type="email" class="form-control" id="email" name="_replyto" aria-describedby="emailHelp" placeholder="请输入电子邮箱" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="message">Message</label>
+                                    <label for="wechatid">微信</label>
+                                    <input type="text" class="form-control" id="wechatid" name="wechatid" aria-describedby="emailHelp" placeholder="请输入微信号">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">服务需求</label>
                                     <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
                                 </div>
                                 <input type="text" name="_gotcha" style="display:none" />
@@ -157,28 +145,25 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="js/new.js"></script>
+  <script src="../js/new.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="../js/stylish-portfolio.min.js"></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176388739-1"></script>
+ <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176388739-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-176388739-1');
-  </script>
-  <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8911525.js"></script>
-  <!-- End of HubSpot Embed Code -->
+  </script> -->
 
 
 
