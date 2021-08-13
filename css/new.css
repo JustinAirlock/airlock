@@ -5,6 +5,16 @@
 	border:1px solid #444;
 }
 
+.bg-blue{
+  background: #007bff;
+  color: white !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn.bg-blue:hover {
+  background: #004bec;
+}
+
 .wrapper{
 	min-height:100%;margin-bottom:-45px
 }
